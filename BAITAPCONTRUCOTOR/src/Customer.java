@@ -13,7 +13,13 @@ public class Customer {
     Customer(String id, String name ) {
         this.id = id;     
         this.name = name; 
-     //   this.email = email; 
+   
+    }
+
+   Customer(String id, String name, String email ) {
+        this.id = id;     
+        this.name = name; 
+        this.email = email; 
     }
 
     //method
